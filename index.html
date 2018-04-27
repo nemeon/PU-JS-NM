@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿
 <html>
 <head>
 <title>Animals</title>
@@ -17,8 +17,39 @@
 </div>
 <br>
 <br>
+<button id="lap">Load Gallery</button>
 <br>
 <br>
+<h1>Photo Gallery</h1>
+<div id="photos"></div>
+<br>
+<br>
+<script>
+	
+	document.getElementById('lap').addEventListener('click',loadPhotos);
+
+	function loadPhotos(){
+		var n = new XMLHttpRequest();
+		n.open('GET', 'https://jsonplaceholder.typicode.com/photos' ,true);
+		n.onload=function(){
+			if(this.status==200){
+				var ph = JSON.parse(this.responseText);
+
+				var output='';
+				for(var i in ph){
+					output +=
+					'<span class="photos">'+
+					'<img src="'+ph[i].url+'"width="70" height="70"'+
+					'</span>';
+
+				}
+				document.getElementById('photos').innerHTML=output;
+			}
+		}
+		n.send();
+	}
+</script>
+
 <footer style="text-align: center;font-family: cursive;">The end</footer> 
 </body>
 </html>
