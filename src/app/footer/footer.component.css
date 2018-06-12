@@ -1,0 +1,26 @@
+/*#footer-holder {
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 400px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -200px;
+  font-family: 'Merienda One', sans-serif;
+  font-weight: bold;
+  border: hidden;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+*/
+
+#footer-holder {
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+  font-family: 'Merienda One', sans-serif;
+  font-weight: bold;
+  border: hidden;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+

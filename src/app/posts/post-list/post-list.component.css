@@ -1,0 +1,24 @@
+.table {
+  width: 100%;
+  display: inline-block;
+  min-height: 200px;
+  border: 2px solid red;
+}
+h6 {
+  color:red;
+}
+
+  .table tr {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+
+    .table tr td {
+      border-left: 1px solid #ddd;
+    }
+
+      .table tr td a.btn {
+        color: #ddd;
+        cursor: pointer;
+      }

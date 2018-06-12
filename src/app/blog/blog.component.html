@@ -1,0 +1,18 @@
+
+<table>
+  <tr *ngFor="let post of filteredList">
+    <div class="container">
+      <td><img class="card-img-top" src="{{post.imgUrl}}" alt="Post image"></td>
+      <div class="card-body">
+        <td><h6 class="card-title">{{post.title}}</h6></td>
+        <br />
+        <td><p class="card-text"><b>Description:</b> {{post.description}}</p></td>
+        <br />
+        <td><p class="card-text"><b>Post uploader:</b> {{post.username}}</p></td>
+      </div>
+    </div>
+  </tr>
+</table>
+
+
+

@@ -1,0 +1,10 @@
+table {
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+  z-index: 12;
+}
+
+.card {
+  width: 100% !important;
+}

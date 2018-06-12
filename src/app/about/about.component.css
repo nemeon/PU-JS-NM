@@ -1,0 +1,6 @@
+.aimg {
+  height: 600px;
+  -webkit-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+}

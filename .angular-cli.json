@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "my-project"
+    "name": "gladiator-store"
   },
   "apps": [
     {
@@ -9,7 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "logo.png"
       ],
       "index": "index.html",
       "main": "main.ts",
