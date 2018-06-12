@@ -15,6 +15,7 @@
           <a routerLink="/home" class="single-menu-element-link">Home</a>
         </li>
         <li class="nav-item">
+<<<<<<< HEAD
           <a routerLink="/about" class="single-menu-element-link">About</a>
         </li>
         <li class="nav-item dropdown">
@@ -30,6 +31,19 @@
      
         <li class="nav-item">
           <a class="nav-link" routerLink="/posts" *ngIf="isUserLogged()">Post Pannel</a>
+=======
+            <a routerLink="/about" class="single-menu-element-link">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Goods <b class="caret"></b></a>
+          <ul class="dropdown-menu">					
+            <li><a routerLink="/italian" class="single-menu-element-link">Armor</a></li>
+            <li><a routerLink="/spanish" class="single-menu-element-link">Wepons</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/blog" class="single-menu-element-link">Blog</a>
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
         </li>
       </ul>
       <ul *ngIf="isLogged" class="nav navbar-nav navbar-right ml-auto">
@@ -37,7 +51,11 @@
         <li class="nav-item"><a href="#" class="nav-link messages"><i class="fa fa-envelope-o"></i><span class="badge">10</span></a></li>
         <li class="nav-item dropdown">
           <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle user-action">
+<<<<<<< HEAD
             <img src="./assets/images/skull.png" class="avatar" alt="Avatar">
+=======
+            <img src="./assets/images/skull.png" class="avatar" alt="Avatar"> 
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
             Chief Skull Master <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
@@ -50,11 +68,16 @@
         </li>
       </ul>
       <ul *ngIf="!isLogged" class="nav navbar-nav navbar-right ml-auto">
+<<<<<<< HEAD
         <li><a routerLink="/login" class="single-menu-element-link" *ngIf="isUserLogged() == false">Login</a></li>
         <li><a routerLink="/register" class="single-menu-element-link" *ngIf="isUserLogged() == false">Register</a></li>
         <li><a routerLink="/home" *ngIf="isUserLogged()" (click)="logOut()">Logout</a></li>
 
 
+=======
+        <li><a routerLink="/login" class="single-menu-element-link">Login</a></li>
+        <li><a routerLink="/register" class="single-menu-element-link">Register</a></li>
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
       </ul>
     </div>
   </nav>

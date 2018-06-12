@@ -1,6 +1,7 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\node_modules\\@angular",
     "\\node_modules\\@angular\\core",
     "\\node_modules\\@angular\\core\\esm5",
@@ -16,5 +17,16 @@
     "\\src\\environments"
   ],
   "SelectedNode": "\\src\\app\\blog\\blog.component.ts",
+=======
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\footer",
+    "\\src\\app\\landing-page",
+    "\\src\\app\\navbar",
+    "\\src\\assets",
+    "\\src\\assets\\images"
+  ],
+  "SelectedNode": "\\src\\styles.css",
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
   "PreviewInSolutionExplorer": false
 }

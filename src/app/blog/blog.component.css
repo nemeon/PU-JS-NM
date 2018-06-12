@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table {
   position: relative;
   margin-left: 25%;
@@ -8,3 +9,17 @@ table {
 .card {
   width: 100% !important;
 }
+=======
+.row{
+    text-align: center; 
+    font-family: 'Merienda One', sans-serif;
+}
+div.polaroid {
+    border: 1px double; 
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+    width: 80%
+}
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8

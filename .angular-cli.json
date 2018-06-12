@@ -1,7 +1,11 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
+<<<<<<< HEAD
     "name": "gladiator-store"
+=======
+    "name": "chief-cook-book"
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
   },
   "apps": [
     {

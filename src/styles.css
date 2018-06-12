@@ -3,6 +3,7 @@ body, html {
 }
 
 .bg {
+<<<<<<< HEAD
   height: 100%;
   width: 100%;
   background-image: url("/assets/images/bg.jpg");
@@ -10,4 +11,11 @@ body, html {
   background-size: cover;
   position: fixed;
   z-index:-1;
+=======
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
 }

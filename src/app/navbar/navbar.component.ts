@@ -12,6 +12,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
+<<<<<<< HEAD
   isUserLogged(): boolean {
     if (sessionStorage.getItem('currentUser') != null) {
       return true;
@@ -25,4 +26,6 @@ export class NavbarComponent implements OnInit {
 
   }
 
+=======
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
 }

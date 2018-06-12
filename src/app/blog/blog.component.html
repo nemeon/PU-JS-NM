@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <table>
   <tr *ngFor="let post of filteredList">
@@ -16,3 +17,20 @@
 
 
 
+=======
+  <div class="row"> 
+    <div *ngFor="let blog of blogs" >
+      <div class="col-md-4">
+        <div class="polaroid">           
+            <h3>{{blog.Title}}</h3>
+            <p>{{blog.Description}}</p>
+            <img src="{{blog.ImgSrc}}" alt="" />    
+            <br>      
+            <br>
+            <p>Author: {{blog.Author}}</p>
+            <p>Blog ID: {{blog.Id}}</p>
+        </div>
+      </div>        
+    </div>
+  </div>
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8

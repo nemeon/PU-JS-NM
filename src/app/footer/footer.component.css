@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*#footer-holder {
   font-size: 1.4em;
   text-align: center;
@@ -23,4 +24,19 @@
   border: hidden;
   text-shadow: 0 0 5px rgba(0,0,0,0.7);
 }
+=======
+#footer-holder{
+    font-size: 1.4em;
+    text-align: center;
+    color:black;
+    margin-top:40%;
+    margin-bottom:0%;
+    font-family: 'Merienda One', sans-serif;
+    font-weight: bold;
+    border:hidden;
+      
+    
+}
+
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
 

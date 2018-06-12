@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "gladiator-store",
+=======
+  "name": "chief-cook-book",
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -21,6 +25,7 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+<<<<<<< HEAD
     "@firebase/auth": "^0.5.3",
     "@firebase/auth-types": "^0.3.3",
     "@firebase/firestore": "^0.5.4",
@@ -30,6 +35,10 @@
     "firebase": "^5.0.4",
     "hoek": "^5.0.3",
     "ngx-toastr": "^8.8.0",
+=======
+    "core-js": "^2.4.1",
+    "hoek": "^5.0.3",
+>>>>>>> 9d5619f5451d873a05fd1bbd283e0d8ff48b8fc8
     "rxjs": "^5.5.6",
     "rxjs-compat": "^6.2.0",
     "zone.js": "^0.8.19"
